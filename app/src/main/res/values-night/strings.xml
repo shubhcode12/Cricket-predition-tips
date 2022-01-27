@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="downloading">Downloading</string>
+    <string name="ok_message">ok</string>
+    <string name="add_new">Add New</string>
+    <string name="edit">Edit</string>
+</resources>

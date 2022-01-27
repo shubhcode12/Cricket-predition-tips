@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "374728336062",
+    "project_id": "gpuntd-9068d",
+    "storage_bucket": "gpuntd-9068d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374728336062:android:ac9d0f9e9f5396936a74ef",
+        "android_client_info": {
+          "package_name": "com.crickpred.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374728336062-g8u3sn85roaav225nf0ss7usks1p481m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crickpred.app",
+            "certificate_hash": "4a5cdc2949d6e260d1d1788bb91b9f784496c754"
+          }
+        },
+        {
+          "client_id": "374728336062-6cucfbtt9n5on3519m0lvfq63uegdvr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW8ZcuFwTAdDLvr7Cxnl8F3kqMaKLwlVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374728336062-6cucfbtt9n5on3519m0lvfq63uegdvr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

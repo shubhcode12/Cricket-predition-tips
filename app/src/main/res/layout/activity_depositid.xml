@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".DepositActivity">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbarDeposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarDeposit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                app:navigationIcon="@drawable/ic_arrow_left"
+                app:title="Notifications" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbarDeposit">
+
+            <RelativeLayout
+                android:id="@+id/iddetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivIdProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_icon_bg" />
+
+            <TextView
+                android:id="@+id/tvIdName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivIdProfile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Exchange 378"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvIdWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvIdName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="exchange378.com"
+                android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/usernameTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/tvIdWebsite"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Darwinbark"
+                    android:textSize="17sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/wlimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/usernameTXT"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Daily Withdrawal Limit : 1,00,00,00"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:id="@+id/m"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wlimit"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/txihint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:hint="Deposit Coins">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/depositCoinEt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/cardBgColor"
+                            android:inputType="number" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/idbelow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="*Minimum deposit amount is 100 coins"
+                        android:textSize="17sp"
+                        android:textStyle="normal" />
+
+                    <RelativeLayout
+                        android:id="@+id/payfromw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="1dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="15dp">
+
+                        <CheckBox
+                            android:id="@+id/checkboxPayFromWallet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tvPayFromWallet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/checkboxPayFromWallet"
+                            android:text="Pay From Wallet" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvPayFromWallet"
+                            android:layout_marginTop="5dp"
+                            android:layout_toEndOf="@+id/checkboxPayFromWallet"
+                            android:text="Current Balance 0" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/wdmthd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp">
+
+
+                            <RelativeLayout
+                                android:id="@+id/wtwR"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="1dp">
+
+                                <RadioButton
+                                    android:id="@+id/wtw"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:checked="true"
+                                    android:minWidth="0dp"
+                                    android:minHeight="0dp" />
+
+                                <TextView
+                                    android:layout_toEndOf="@+id/wtw"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text="Withdraw to Wallet"
+                                    android:textSize="16sp" />
+
+                            </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_below="@+id/wtwR"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="1dp">
+
+                                    <RadioButton
+                                        android:id="@+id/wtb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:checked="false"
+                                        android:minWidth="0dp"
+                                        android:minHeight="0dp" />
+
+                                    <TextView
+                                        android:layout_toEndOf="@+id/wtb"
+                                        android:layout_centerVertical="true"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Withdraw to Bank"
+                                        android:textSize="16sp" />
+
+                            </RelativeLayout>
+
+
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+                        android:id="@+id/btnDepositCoin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:text="Deposit Coins"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+
+              </RelativeLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

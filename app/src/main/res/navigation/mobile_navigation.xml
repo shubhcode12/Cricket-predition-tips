@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.crickpred.app.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_offers"
+        android:name="com.crickpred.app.ui.offers.OffersFragment"
+        android:label="@string/title_offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/navigation_passbook"
+        android:name="com.crickpred.app.ui.passbook.PassbookFragment"
+        android:label="@string/title_passbook"
+        tools:layout="@layout/fragment_passbook" />
+
+    <fragment
+        android:id="@+id/navigation_ids"
+        android:name="com.crickpred.app.ui.ids.IdsFragment"
+        android:label="@string/title_ids"
+        tools:layout="@layout/fragment_ids"
+        />
+</navigation>

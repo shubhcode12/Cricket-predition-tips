@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daasuu.bl.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:bl_arrowDirection="top_right"
+    android:layout_width="wrap_content"
+    app:bl_arrowWidth="15dp"
+    app:bl_arrowHeight="12dp"
+    app:bl_arrowPosition="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="60dp"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="right"
+    app:bl_cornersRadius="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/pdeposit"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deposit"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:background="#D1D1D1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/pwithdraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Withdraw"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:background="#D1D1D1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/ptxnDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="View Txns/Balance"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:background="#D1D1D1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/pchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Change Password"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:background="#D1D1D1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/pclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Close ID"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+
+</com.daasuu.bl.BubbleLayout>

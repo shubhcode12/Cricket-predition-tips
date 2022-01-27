@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Cricket Tournament</string>
+
+
+    <!--Bottom Navigation    -->
+    <string name="title_home">Home</string>
+    <string name="title_offers">Offers</string>
+    <string name="title_passbook">Passbook</string>
+    <string name="title_ids">IDs</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Navigation Drawer-->
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_withdrawal_details">Withdrawal Details</string>
+    <string name="drawer_creat_id">Creat ID</string>
+    <string name="drawer_refer_amp_earn"><![CDATA[Refer & Earn]]></string>
+    <string name="drawer_terms">Terms</string>
+    <string name="drawer_notifications">Notifications</string>
+    <string name="drawer_help">Help</string>
+    <string name="drawer_how_to_use">How To USe</string>
+    <string name="drawer_logout">Logout</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="terms">Use of this site is provided by Demos subject to the following Terms and Conditions:
+1. Your use constitutes acceptance of these Terms and Conditions as at the date of your first use of the site.
+2. Demos reserves the rights to change these Terms and Conditions at any time by posting changes online. Your continued use of this site after changes are posted constitutes your acceptance of this agreement as modified.
+3. You agree to use this site only for lawful purposes, and in a manner which does not infringe the rights, or restrict, or inhibit the use and enjoyment of the site by any third party.
+4. This site and the information, names, images, pictures, logos regarding or relating to Demos are provided “as is” without any representation or endorsement made and without warranty of any kind whether express or implied. In no event will Demos be liable for any damages including, without limitation, indirect or consequential damages, or any damages whatsoever arising from the use or in connection with such use or loss of use of the site, whether in contract or in negligence.
+5. Demos does not warrant that the functions contained in the material contained in this site will be uninterrupted or error free, that defects will be corrected, or that this site or the server that makes it available are free of viruses or bugs or represents the full functionality, accuracy and reliability of the materials.
+6. Copyright restrictions: please refer to our Creative Commons license terms governing the use of material on this site.
+7. Demos takes no responsibility for the content of external Internet Sites.
+8. Any communication or material that you transmit to, or post on, any public area of the site including any data, questions, comments, suggestions, or the like, is, and will be treated as, non-confidential and non-proprietary information.
+9. If there is any conflict between these Terms and Conditions and rules and/or specific terms of use appearing on this site relating to specific material then the latter shall prevail.</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_url">https://darwinbark.com/pgr.php</string>
+    <string name="paytm_mid">jSbwjs96829691726449</string>
+    <string name="paytm_key">ok</string>
+    <string name="ok_message">ok</string>
+    <string name="add_new">Add New</string>
+    <string name="edit">Edit</string>
+    <string name="idPasswordChange">Request ID\'s Password</string>
+    <string name="confirmationPassword">Are You sure you want to request for \n new ID password?</string>
+</resources>

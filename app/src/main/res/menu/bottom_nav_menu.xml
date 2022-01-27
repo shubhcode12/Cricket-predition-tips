@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_1"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_offers"
+        android:icon="@drawable/ic_offer"
+        android:title="@string/title_offers" />
+
+    <item
+        android:id="@+id/navigation_passbook"
+        android:icon="@drawable/ic_passbook"
+        android:title="@string/title_passbook" />
+
+    <item
+        android:id="@+id/navigation_ids"
+        android:icon="@drawable/ic_ids"
+        android:title="@string/title_ids"
+        />
+
+</menu>
