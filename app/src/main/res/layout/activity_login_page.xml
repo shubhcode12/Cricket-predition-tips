@@ -6,7 +6,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white">
+        android:background="#fff">
 
 
         <RelativeLayout
@@ -47,7 +47,7 @@
                         android:layout_width="50dp"
                         android:layout_height="2dp"
                         android:layout_marginTop="10dp"
-                        android:background="@color/colorPrimary" />
+                        android:background="#00ACC1" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -61,39 +61,40 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center_vertical">
 
                     <com.hbb20.CountryCodePicker
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
-                        app:ccp_contentColor="@color/white"
+                        app:ccp_contentColor="@color/black"
                         app:ccp_defaultNameCode="IN" />
 
                     <View
                         android:layout_width="1dp"
                         android:layout_height="match_parent"
                         android:layout_margin="10dp"
-                        android:background="@color/black" />
+                        android:background="@color/white" />
 
 
                     <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                         android:layout_width="match_parent"
+                        android:layout_gravity="center_vertical"
+                        app:boxStrokeColor="@color/black"
                         android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:hint="Number"
-                        app:hintTextColor="@color/black">
+                        app:hintTextColor="@color/black"
+                        android:hint="Number">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/loginPagePhoneET"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/white"
-                            android:hint="Number"
                             android:inputType="phone"
-                            android:textColor="@color/black"
-                            android:textColorHint="@color/black" />
+                            android:hint="Number"
+                            android:textColorHint="@color/black"
+                            android:textColor="@color/black" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -101,25 +102,32 @@
                 </LinearLayout>
 
 
+
+
                 <com.google.android.material.textfield.TextInputLayout
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:hint="Password"
                     app:hintTextColor="@color/black"
-                    app:passwordToggleEnabled="true">
+                    app:boxStrokeColor="@color/black"
+                    app:passwordToggleEnabled="true"
+                    android:hint="Password">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/passPageEt"
+                        android:textColor="@color/black"
+                        android:hint="Password"
+                        android:textColorHint="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:inputType="text"
-                        android:textColor="@color/black"
-                        android:textColorHint="@color/black" />
+                        android:text="" />
 
                 </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
 
                 <TextView
                     android:id="@+id/forgotPassTv"
@@ -127,11 +135,13 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
                     android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
                     android:text="Forgot Password?" />
 
                 <Button
                     android:id="@+id/btnLogin"
                     android:layout_width="match_parent"
+                    android:backgroundTint="#00ACC1"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="60dp"
                     android:text="LOGIN" />
@@ -177,8 +187,8 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="wrap_content"
                         android:textColor="@color/black"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Login With" />
 
